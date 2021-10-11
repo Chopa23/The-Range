@@ -153,40 +153,36 @@ header {
   padding-bottom: 75px;
 }
 .features-item-title {
+  margin: 0;
+  margin-bottom: 30px;
   font-size: 15px;
-  font-family: "Myriad Pro";
+  font-family: "Lato" sans-serif;
   color: rgb(82, 26, 102);
   text-transform: uppercase;
+  font-weight: bold;
   line-height: 0.001;
   text-align: left;
-  padding: 30px 0;
 }
 
 .features-description {
   font-size: 16px;
-  font-family: "Myriad Pro";
   color: rgb(122, 131, 135);
   line-height: 1.875;
-  text-align: left;
+  /* text-align: left; */
 }
 /* suggestions */
 .suggestions {
   min-height: 450px;
-  text-align: center;
+  /* text-align: center; */
   background-image: url(/images/Base1.jpg);
   background-repeat: no-repeat;
   background-position: center center;
 }
 .suggestions-inner {
-  position: relative;
-  margin-left: 130px;
-  width: 940px;
-}
-.suggestions-text {
-  position: absolute;
-  width: 800px;
-  margin: 0;
   padding-top: 126px;
+  padding-bottom: 105px;
+  text-align: center;
+  position: relative;
   /* padding-left: 330px; */
 }
 .suggestions-title {
@@ -194,9 +190,32 @@ header {
   font-family: "Myriad Pro";
   color: rgb(255, 255, 255);
   margin: 0;
+  padding-bottom: 40px;
 }
 .suggestions-p {
+  width: 940px;
   font-size: 20px;
   font-family: "Myriad Pro";
   color: rgb(168, 123, 183);
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+/* advantages */
+.advantages {
+  background-color: #f6f6f4;
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+.advantages-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.advantages-item {
+  position: relative;
+  width: 220px;
+  margin: 10px;
+  padding: 60px 5px 5px 5px;
 }
