@@ -212,10 +212,50 @@ header {
   list-style: none;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .advantages-item {
   position: relative;
   width: 220px;
   margin: 10px;
   padding: 60px 5px 5px 5px;
+}
+.advantages-item::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 39px;
+  height: 39px;
+  transform: translateX(-50%);
+  background-image: url(/images/Timer.jpg);
+  background-repeat: no-repeat;
+}
+.advantages-item-title {
+  padding-bottom: 30px;
+  font-size: 15px;
+  font-family: "Myriad Pro";
+  color: rgb(102, 46, 121);
+  text-transform: uppercase;
+  line-height: 0.001;
+  text-align: center;
+}
+.advantages-text {
+  font-size: 16px;
+  font-family: "Myriad Pro";
+  color: rgb(122, 131, 135);
+  line-height: 1.875;
+  text-align: center;
+}
+.advantages-item-dashboard::before {
+  background-image: url(/images/Dashboard.jpg);
+  background-repeat: no-repeat;
+}
+.advantages-item-stats::before {
+  background-image: url(/images/Stats.jpg);
+  background-repeat: no-repeat;
+}
+.advantages-item-menu::before {
+  background-image: url(/images/Menu.jpg);
+  background-repeat: no-repeat;
 }
