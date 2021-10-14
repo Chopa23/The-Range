@@ -11,6 +11,17 @@ body {
   background-color: #f6f6f4;
   position: relative;
 }
+.sr-only {
+  position: absolute;
+  height: 1px;
+  font-weight: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  /* -webkit-clip-path: inset(50%); */
+  border: 0;
+}
 .container {
   width: 1180px;
   margin: 0 auto;
